@@ -1,5 +1,5 @@
 <template>
-<v-app :style="{ background: $vuetify.theme.themes.dark.background}">
+<v-app :style="{ background: $vuetify.theme.themes.light.background}">
 <Navbar />
 <v-container fluid>
   <v-row>
@@ -7,7 +7,7 @@
       <v-img src="1.png" contain max-height="500"></v-img>
     </v-col>
     <v-col cols="6">
-      <h5 class="red-text text-darken-4 top">Hello This is Leezy</h5>
+      <h5 class="red-text lime accent-2 top">💻 Hello 👋🏻 This is Leezy </h5>
       <h1 class="white--text">Visual Designer</h1>
       <p class="grey--text"> 
         ------------------<br />--------------------<br />-------------------------

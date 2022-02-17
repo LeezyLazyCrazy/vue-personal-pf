@@ -5,7 +5,7 @@
         <v-col cols="12" sm="4">
           <v-card-text class="white--text pt-2">
             <v-btn icon>
-              <v-icon color="#A7121D"> fas fa-dragon</v-icon>
+              <!-- <v-icon color="#80FF00"> fas fa-dragon</v-icon> -->
             </v-btn>
           </v-card-text>
         </v-col>
@@ -16,10 +16,10 @@
              </v-btn>
            </v-card-text>
         </v-col>
-        <v-col cols="12" sm="4">
+        <v-col cols="12" sm="4" display-5>
           <v-card-text class="pt-2">
             <v-btn class="mx-1 white--text" icon>
-              <v-icon color="#A7121D">mdi-heart</v-icon>
+              <v-icon color="#80FF00">mdi-cactus</v-icon>
             </v-btn>
             Created by Leezy
           </v-card-text>
@@ -33,7 +33,7 @@
 export default {
   data:()=>({
     icons: [
-      "mdi-facebook","mdi-twitter", "mdi-linkedin", "mdi-instagram"
+       "mdi-linkedin",  "mdi-github", "mdi-whatsapp", "mdi-instagram", "mdi-gmail"
     ]
   })
 

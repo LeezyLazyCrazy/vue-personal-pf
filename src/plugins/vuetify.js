@@ -6,13 +6,14 @@ import Vuetify from 'vuetify/lib/framework';
 Vue.use(Vuetify);
 
 export default new Vuetify({
+  
   icons: {
-    iconfont: 'fa' || 'md' || 'mdi'
+    iconfont: 'fa' || 'md' || 'mdi' || 'fa4' || 'faSvg'
   },
   theme: {
     themes: {
-      dark: {
-        background:'#111111'
+      light: {
+        background:'#BCBCBC'
       }
     }
   }
