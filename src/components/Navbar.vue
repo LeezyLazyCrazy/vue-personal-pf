@@ -1,5 +1,5 @@
 <template>
-<v-app-bar app color="#111111" dark flat class="px-8">
+<v-app-bar app color="#000051" dark flat class="px-8">
   <v-btn icon>
     <v-icon color="#80FF00">mdi-cactus</v-icon>
   </v-btn>
@@ -16,7 +16,7 @@ export default {
   methods:{
     scroll(refName){
       const element = document.getElementById(refName)
-      element.scrollItoView({behavior: "smooth"})
+      element.scrollIntoView({behavior: "smooth"})
     }
   }
 }

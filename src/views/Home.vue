@@ -1,195 +1,152 @@
 <template>
-<v-app :style="{ background: $vuetify.theme.themes.light.background}">
-<Navbar />
-<v-container fluid>
-  <v-row>
-    <v-col cols="6">
-      <v-img src="1.png" contain max-height="500"></v-img>
-    </v-col>
-    <v-col cols="6">
-      <h5 class="red-text lime accent-2 top">💻 Hello 👋🏻 This is Leezy </h5>
-      <h1 class="white--text">Visual Designer</h1>
-      <p class="grey--text"> 
-        ------------------<br />--------------------<br />-------------------------
-      </p>
-        <v-btn tile color="#A7121D" dark>about me</v-btn>
-    </v-col>
-  </v-row>
-    <v-col cols="12" class="padd">
-      <div class="first" id="project">
-        <v-row>
-          <v-col cols="12">
-          <v-col class="child bgColor1">
-            <v-icon color="#A7121D" x-large class="ml-3">
-              mdi-palette-swatch
-            </v-icon>
-            <h3 class="white--text ml-3mt-4">UI Design</h3>
-            <p class="grey--text ml-3 mt-6">
-              ------------------<br>c----------------
-            </p>
-            <v-btn color="#A7121D" dark text>
-              know more
-              <v-icon right>md1-arrow-right</v-icon>
-            </v-btn>
-          </v-col>
-          </v-col>
-        </v-row>
-      </div>
-    </v-col>
-    <div class="child bgColor2">
-      <v-icon x-large class="ml-3 dark">mdi-shopping</v-icon>
-      <h3 class="white--text ml-3 mt-4"> Product Designer</h3>
-      <p class="grey--text ml-3 mt-6">
-       ------------------<br />----------------
-      </p>
-      <v-btn dark text>
-      know more
-      <v-icon right>md1-arrow-right</v-icon>
-      </v-btn>
-    </div>
-      <div class="child bgColor1">
-        <v-icon color="#A7121D" x-large class="ml-3">mdi-book-open-page-variant</v-icon>
-        <h3 class="white--text ml-3 mt-4">Branding</h3>
-        <p class="grey--text ml-3 mt-6">
-        ------------------<br />----------------
-        </p>
-        <v-btn color="#A7121D" dark text>
-        know more
-        <v-icon right>md1-arrow-right</v-icon>  
-        </v-btn>
-      </div>          
-      <v-col cols="12" class="mt-10">
-          <div class="child1">
-            <h1 class="red--text text--darken-4 mt-4 number">12</h1>
-            <h3 class="white--text mt-4">Year Experience</h3>
-          </div>
-          <div class="child2 mRight">
-            <v-row>
-              <v-col cols="12" class="childcol">
-                <div class="child2 mButton padding bgColor1">
-                  <h1 class="red--text text--darken-4">60+</h1>
-                  <p class="grey--text">Clients</p>
-                </div>
-              </v-col>
-              <v-col cols="12" class="childcol">
-                <div class="child2 padding bgColor1">
-                  <h1 class="red--text text--darken-4">122+</h1>
-                  <p class="grey--text">Completed Projects</p>
-                </div>
-              </v-col>
-              </v-row>
-          </div>
-            <div class="child2">
-              <v-row>
-                <v-col cols="12" class="childcol">
-                  <div class="child2 mButton padding bgColor1">
-                    <h1 class="red--text text--darken-4">08</h1>
-                    <p class="grey--text">Years Experience</p>
-                  </div>
-                </v-col>
-                <v-col cols="12" class="childcol">
-                  <div class="child2 padding bgColor1">
-                    <h1 class="red--text text--darken-4">10</h1>
-                    <p class="grey--text">Achievements</p>
-                  </div>
-                </v-col>
-              </v-row>
-            </div>
-       </v-col>
-      <v-col md="3" offset-md="3" id="about">
-        <h4 class="white--text">FEATURED PROJECTS</h4>
-        <p class="grey--text">-----------------------------</p>
-      </v-col>
-      <v-col md="3" class="text-end">
-        <v-btn tile color="#A7121D" dark>View All</v-btn>
-      </v-col>
-      <v-col md="3" offset-md="3">
-        <v-card class="pa-2 py-12" outlined tile height="250px" color="#1E1E1E">
-        <v-img src="3.png" contain></v-img>
-        </v-card>
-      </v-col>
-      <v-col md="3">
-        <v-card class="pa-2 py-12" outlined tile height="250px" color="#1E1E1E">
-        <v-img src="2.png" contain ></v-img>
-        </v-card>
-      </v-col>
-      <v-col md="3" offset-md="3">
-        <v-btn color="white" dark text class="ml-n4">
-          The Vintage
-        </v-btn><br />
-        <v-btn color="#A7121D" dark text class="ml-n4">
-          Know more
-        <v-icon right>mdi-arrow-right</v-icon>
-      </v-btn>
-      </v-col>
-      <v-col md="3">
-      <v-btn color="white" dark text class="ml-n4">
-        Foodasa
-      </v-btn><br />
-      <v-btn color="#A7121D" dark text class="ml-n4">
-        Know more
-        <v-icon right>mdi-arrow-right</v-icon>
-      </v-btn>
-      </v-col>
-      <v-col md="3" offset-md="3">
-      <v-card class="pa-2 py-12" outlined tile height="250px" color="#1E1E1E">
-        <v-img src="4.png" contain ></v-img>
-      </v-card>
-      </v-col>
-      <v-col md="3">
-      <v-card class="pa-2 py-12" outlined tile height="250px" color="#1E1E1E">
-      <v-img src="5.png" contain ></v-img>
-      </v-card>
-      </v-col>
-      <v-col md="3" offset-md="3">
-      <v-btn color="white" dark text class="ml-n4">
-        AAE IdeaPro
-      </v-btn><br />
-      <v-btn color="#A7121D" dark text class="ml-n4">
-        Know more
-      <v-icon right>mdi-arrow-right</v-icon>
-      </v-btn>
-      </v-col>
-      <v-col md="3">
-      <v-btn color="white" dark text class="ml-n4">
-        Mozaik
-      </v-btn><br />
-      <v-btn color="#A7121D" dark text class="ml-n4">
-        Know more
-        <v-icon right>mdi-arrow-right</v-icon>
-      </v-btn>
-      </v-col>
-      <v-col cols="12" class="padd topInverse">
-      <div class="second">
-        <div class="secondchild1" id="contact">
-        <v-row>
-          <v-col cols="7">
-            <h1 class="white--text">
-              Let's work together on <br />your next project
-            </h1>
-            <p class="grey--text">
-              -----------------------------------<br />
-            </p>
-          </v-col>
-          <v-col cols="5">
-            <v-btn tile bgColor1="#A7121D" dark class="mt-16">Contact</v-btn> 
-          </v-col>
-        </v-row>
-      </div>
-      </div>
-      <v-toolbar class="topTolbar" color="#111111" dark flat>
-        <div style="position: absolute; margin-left:auto; margin-right:auto; left:0; right:0; text-align:center;">
-          <v-btn text> Home</v-btn>
-          <v-btn text> Project</v-btn>
-          <v-btn text> About</v-btn>
-          <v-btn text> Contact</v-btn>
-        </div>
-      </v-toolbar>
-      </v-col>
-</v-container>
-<Footer />
-</v-app>
+    <v-app 
+    id="home" 
+    :style="{ background: $vuetify.theme.themes.light.background}"
+    >
+    <Navbar />
 
+    <!-- 1st section : kinda about skils page-->
+    <v-container fluid>
+      <v-row>
+        <v-col cols="6">
+          <v-img src="1.png" contain max-height="600"></v-img>
+        </v-col>
+        <v-col cols="6">
+          <h3 class="red-text text--darken-4 top">💻 Hello 👋🏻 This is Leezy </h3>
+          <h1 class="outline"> { Front-end Developer } </h1>
+          <h5 class="red-text text--darken-4"> 
+            사람은 믿어주는 만큼 자라고<br /> 아껴주는 만큼 여물고<br /> 
+            인정받는 만큼 성장하는 법<br />
+            내가 선택한 주변 환경과 생각들에 따라 엄청난 결과의 차이를 만들 수 있다고 말이다<br />
+          #create #passion #develope #dive #travell #drawing #netflix #pilates #dance <br /> 
+          <br />
+          </h5>
+          <!-- <v-btn tile color="#f4d2f7" light>about me</v-btn> -->
+        </v-col>
+    <!-- 1st section  End -->
+
+    <!-- 2nd section : project -->
+      <div class="first" id="project"> 
+        <v-row>
+        <v-col md="3" offset-md="3">
+            <v-card 
+              class="pa-2 py-12" 
+              outlined 
+              tile 
+              height="250px" 
+              color="#1E1E1E">
+            <v-img src="3.png" contain></v-img>
+            </v-card>
+        </v-col>
+
+        <v-col md="3">
+            <v-card 
+              class="pa-2 py-12" 
+              outlined 
+              tile 
+              height="250px" 
+              color="#1E1E1E">
+            <v-img src="2.png" contain ></v-img>
+            </v-card>
+        </v-col>
+
+        <v-col md="3" offset-md="3">
+            <v-btn color="white" dark text class="ml-n4">
+              The Vintage
+            </v-btn><br />
+            <v-btn color="#EEFF41" dark text class="ml-n4">
+              Know more
+            <v-icon right>mdi-arrow-right</v-icon>
+          </v-btn>
+        </v-col>
+
+        <v-col md="3">
+          <v-btn color="white" dark text class="ml-n4">
+            Foodasa
+          </v-btn><br />
+          <v-btn color="#EEFF41" dark text class="ml-n4">
+            Know more
+            <v-icon right>mdi-arrow-right</v-icon>
+          </v-btn>
+        </v-col>
+
+        <v-col md="3" offset-md="3">
+          <v-card 
+            class="pa-2 py-12" 
+            outlined 
+            tile 
+            height="250px" 
+            color="#1E1E1E">
+            <v-img src="4.png" contain ></v-img>
+          </v-card>
+        </v-col>
+
+        <v-col md="3">
+          <v-card 
+            class="pa-2 py-12" 
+            outlined 
+            tile 
+            height="250px" 
+            color="#1E1E1E">
+          <v-img src="5.png" contain ></v-img>
+          </v-card>
+        </v-col>
+
+        <v-col md="3" offset-md="3">
+          <v-btn color="white" dark text class="ml-n4">
+            AAE IdeaPro
+          </v-btn><br />
+          <v-btn color="#EEFF41" dark text class="ml-n4">
+            Know more
+          <v-icon right>mdi-arrow-right</v-icon>
+          </v-btn>
+        </v-col>
+
+        <v-col md="3">
+          <v-btn color="white" dark text class="ml-n4">
+            Mozaik
+          </v-btn><br />
+          <v-btn color="#EEFF41" dark text class="ml-n4">
+            Know more
+            <v-icon right>mdi-arrow-right</v-icon>
+          </v-btn>
+        </v-col>
+        </v-row>   
+      </div>  
+    <!-- 2nd section End -->
+
+    <!-- 3rd section : about -->
+      <div class="second" id="about">
+        <v-col cols="12" sm="4">
+        </v-col>
+          <v-row>
+            <v-col md="3" offset-md="3">
+
+            </v-col>
+          </v-row>
+      </div>
+    <!-- 3rd section End -->
+
+    <!-- 4rd section : contact -->
+      <div class="third" id="contact">    
+        <v-col cols="12" sm="4" >     
+          </v-col>
+            <v-card-text class="pt-2"  >
+              <v-btn 
+                v-for="icon in icons" 
+                :key="icon" 
+                class="mx-4 white--text" 
+                icon
+              >
+                <v-icon size="24px">{{ icon }}</v-icon>
+              </v-btn>
+            </v-card-text>
+      </div>
+    <!-- 4rd section End -->
+     </v-row>
+    </v-container>
+    <Footer />
+  </v-app>
 </template>
 
 
@@ -199,95 +156,48 @@
 
   export default {
     name: 'Home',
+    data: ()=> ({
+      icons: ["mdi-facebook", "mdi-twitter", "mdi-linkedin", "mdi-instagram"],
+    }),
 
     components: {
       Navbar,
       Footer
     },
-  }
+  };
 </script>
 
 <style scoped>
+.outline {
+  color: #FFFFFF;
+  text-shadow: 2px 2px 0 #0d7dde, 2px -2px 0 #0d7dde, -2px 2px 0 #0d7dde, -2px -2px 0 #0d7dde, 2px 0px 0 #0d7dde, 0px 2px 0 #0d7dde, -2px 0px 0 #0d7dde, 0px -2px 0 #0d7dde;
+}
 .top {
   margin-top: 180px;
 }
 .topInverse {
   margin-top: -250px;
 }
-.topTolbar {
-  margin-top:100px;
-  text-align:center;
-}
 .first {
-  width:100%;
+  width: 100%;
   height: 610px;
   background: linear-gradient(
-    to right,
-    #181818,
-    #181818 50%,
-    #111111 50%,
-    #111111 50%
-    );
-    text-align: center;
-    padding: 2rem 2rem;
-}
-.second {
-  width:100%;
-  height: 400px;
-  background: #181818;
+    to bottom,
+    #ffd54f,
+    #ffd54f 10%,
+    #fdd550 30%,
+    #fac042 50%
+  );
   text-align: center;
   padding: 2rem 2rem;
 }
-.secondchild1 {
-  display: inline-block;
-  background-color: #1e1e1e1e;
-  padding: 2rem 1rem;
-  vertical-align: middle;
-  text-align: left;
-  margin-top: 250px;
+
+.second {
+  width: 100%;
+  height: 400px;
+  background:#f7c04b;
+  text-align: center;
+  padding: 2rem 2rem;
 }
-.child {
-  display: inline-block;
-  padding:2rem 2rem;
-  vertical-align: middle;
-  text-align: left;
-  margin-top: 8px;
-}
-.bgColor1 {
-  background-color:#1e1e1e ;
-}
-.bgColor2 {
-  background-color: #ce1d2a;
-}
-.child1 {
-  display: inline-block;
-  padding: 2rem 1rem;
-  vertical-align: middle;
-  margin-right: 5px;
-  width:240px;
-}
-.child2 {
-  display: inline-block;
-  width:245px;
-  vertical-align: middle;
-}
-.mRight {
-  margin-right: 8px;
-}
-.mButton {
-  margin-bottom: 8px;
-}
-.padding {
-  padding: 8px 0px;
-}
-.col-12.padd {
-  padding: 12px 0 !important;
-}
-.col-12.childcol {
-  padding:0 !important
-}
-h1.number {
-  font-size:50px;
-  font-weight: bold;
-}
+
 </style>
