@@ -13,13 +13,16 @@
         </v-col>
         <v-col cols="6">
           <h3 class="red-text text--darken-4 top">💻 Hello 👋🏻 This is Leezy </h3>
-          <h1 class="outline"> { Front-end Developer } </h1>
+          <div class="outline"><h1> { Front-end Developer } </h1></div>
           <h5 class="red-text text--darken-4"> 
             사람은 믿어주는 만큼 자라고<br /> 아껴주는 만큼 여물고<br /> 
             인정받는 만큼 성장하는 법<br />
-            내가 선택한 주변 환경과 생각들에 따라 엄청난 결과의 차이를 만들 수 있다고 말이다<br />
-          #create #passion #develope #dive #travell #drawing #netflix #pilates #dance <br /> 
-          <br />
+            내가 선택한 주변 환경과 생각들에 따라 <br />
+            엄청난 결과의 차이를 만들 수 있다고 말이다<br />
+          <div class="hashtag">
+            <MARQUEE scrolldelay="200" width="400" height="30" hspace="50" vspace="50" bgColor="blue" color=#ffff behavior="scroll" loop="3">#create #passion #develope #dive #travell #drawing #netflix #pilates #dance</MARQUEE>
+          </div>
+          
           </h5>
           <!-- <v-btn tile color="#f4d2f7" light>about me</v-btn> -->
         </v-col>
@@ -168,9 +171,16 @@
 </script>
 
 <style scoped>
+ 
 .outline {
-  color: #FFFFFF;
+  color: rgb(250, 250, 250);
   text-shadow: 2px 2px 0 #0d7dde, 2px -2px 0 #0d7dde, -2px 2px 0 #0d7dde, -2px -2px 0 #0d7dde, 2px 0px 0 #0d7dde, 0px 2px 0 #0d7dde, -2px 0px 0 #0d7dde, 0px -2px 0 #0d7dde;
+}
+.hashtag {
+  margin-top:20px;
+  font-size: 20px;
+  align-content: center;
+  color:rgb(250, 250, 250);
 }
 .top {
   margin-top: 180px;
@@ -198,6 +208,9 @@
   background:#f7c04b;
   text-align: center;
   padding: 2rem 2rem;
+}
+.third {
+ background:#f7c04b;
 }
 
 </style>
