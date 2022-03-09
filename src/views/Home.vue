@@ -20,7 +20,17 @@
             내가 선택한 주변 환경과 생각들에 따라 <br />
             엄청난 결과의 차이를 만들 수 있다고 말이다<br />
           <div class="hashtag">
-            <MARQUEE scrolldelay="200" width="400" height="30" hspace="50" vspace="50" bgColor="blue" color=#ffff behavior="scroll" loop="3">#create #passion #develope #dive #travell #drawing #netflix #pilates #dance</MARQUEE>
+            <MARQUEE 
+            scrolldelay="200" 
+            width="400" 
+            height="30" 
+            hspace="50" 
+            vspace="50" 
+            bgColor="blue"
+            behavior="scroll" 
+            loop="3">
+            #ISFP-T #create #passion #develope #dive #travell #drawing #netflix #pilates #dance
+            </MARQUEE>
           </div>
           
           </h5>
@@ -120,32 +130,36 @@
 
     <!-- 3rd section : about -->
       <div class="second" id="about">
-        <v-col cols="12" sm="4">
+        <v-col md="3" offset-md="3">
         </v-col>
           <v-row>
             <v-col md="3" offset-md="3">
-
+              
+                <div class="allaboutme" subtitle-1>
+                  <h2>I can be anything</h2>   
+                </div>
+            
             </v-col>
           </v-row>
       </div>
     <!-- 3rd section End -->
 
-    <!-- 4rd section : contact -->
+    <!-- 4th section : contact -->
       <div class="third" id="contact">    
-        <v-col cols="12" sm="4" >     
+        <v-col cols="12" sm="4"  >     
           </v-col>
             <v-card-text class="pt-2"  >
               <v-btn 
                 v-for="icon in icons" 
                 :key="icon" 
-                class="mx-4 white--text" 
+                class="mx-4 white--text justify-space-around" 
                 icon
               >
-                <v-icon size="24px">{{ icon }}</v-icon>
+              <v-icon size="24px" >{{ icon }}</v-icon>
               </v-btn>
             </v-card-text>
       </div>
-    <!-- 4rd section End -->
+    <!-- 4th section End -->
      </v-row>
     </v-container>
     <Footer />
@@ -160,7 +174,7 @@
   export default {
     name: 'Home',
     data: ()=> ({
-      icons: ["mdi-facebook", "mdi-twitter", "mdi-linkedin", "mdi-instagram"],
+      icons: ["mdi-github", "mdi-gmail","mdi-linkedin"],
     }),
 
     components: {
@@ -171,7 +185,16 @@
 </script>
 
 <style scoped>
- 
+
+#home {
+    background: linear-gradient(
+    to bottom,
+    #ffd54f,
+    #ffd54f 10%,
+    #fdd550 30%,
+    #fac042 50%
+  );
+}
 .outline {
   color: rgb(250, 250, 250);
   text-shadow: 2px 2px 0 #0d7dde, 2px -2px 0 #0d7dde, -2px 2px 0 #0d7dde, -2px -2px 0 #0d7dde, 2px 0px 0 #0d7dde, 0px 2px 0 #0d7dde, -2px 0px 0 #0d7dde, 0px -2px 0 #0d7dde;
@@ -192,11 +215,10 @@
   width: 100%;
   height: 610px;
   background: linear-gradient(
-    to bottom,
     #ffd54f,
-    #ffd54f 10%,
-    #fdd550 30%,
-    #fac042 50%
+    #ffd54f 20%,
+    #facf43 40%,
+    #fcc244 60%
   );
   text-align: center;
   padding: 2rem 2rem;
@@ -205,12 +227,12 @@
 .second {
   width: 100%;
   height: 400px;
-  background:#f7c04b;
+  background:#fac042;
   text-align: center;
   padding: 2rem 2rem;
 }
 .third {
- background:#f7c04b;
+ background:#fac042;
 }
 
 </style>
