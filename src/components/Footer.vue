@@ -23,17 +23,3 @@
   </v-footer>
 </template>
 
-<script>
-export default {
-  data:()=>({
-    icons: [
-       "mdi-linkedin",  "mdi-github", "mdi-whatsapp", "mdi-instagram", "mdi-gmail"
-    ]
-  })
-
-}
-</script>
-
-<style>
-
-</style>
