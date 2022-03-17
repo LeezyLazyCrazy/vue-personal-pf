@@ -3,7 +3,7 @@
     <Navbar />
 
 <!-- 1st section : intro page-->
-    <v-container fluid>
+    <v-container fluid align-center>
       <v-row class="mt-14">
       <div class="first" id="intro">
         <v-col cols="6" >
@@ -131,18 +131,18 @@
               <div class="pfIcon">
                 <p class="icon">
                   <a href="https://leezy-threejs-squidgame.netlify.app" target="blank">
-                  <img src="https://img.icons8.com/color/95/000000/squid-game-square-guard.png"/>
+                  <img src="squidgamedoll.png">
                   </a>
                 </p>
                 <div id="desc">
                   <h3>Squid Game Three.js</h3>
                   <span class="site">
-                    <a href="https://leezy-threejs-squidgame.netlify.app" target="blank">
+                    <a href="https://squidgamedoll-threejs.netlify.app" target="blank">
                     <img src="https://img.icons8.com/external-kmg-design-basic-outline-kmg-design/30/000000/external-web-business-management-kmg-design-basic-outline-kmg-design.png"/>
                     </a>
                   </span>
                   <span class="github">
-                    <a href="https://github.com/LeezyLazyCrazy/SquidGame_ThreeJS.git" target="blank">
+                    <a href="https://github.com/LeezyLazyCrazy/squidgame_threejs_pf.git" target="blank">
                     <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png"/>
                     </a>
                   </span>
@@ -159,19 +159,19 @@
           <v-col cols="3" class="pf-box">           
               <div class="pfIcon">
                 <p class="icon">
-                  <a href="https://leezy-vuejs-weather.netlify.app" target="blank">
-                  <img src="https://img.icons8.com/carbon-copy/100/000000/partly-cloudy-night.png"/>
+                  <a href="https://leezy-vuejs-covid19tracker.netlify.app" target="blank">
+                  <img src="https://img.icons8.com/external-flaticons-flat-flat-icons/90/000000/external-covid-vacation-planning-trip-abroad-flaticons-flat-flat-icons-2.png"/>
                   </a>
                 </p>
                 <div id="desc">
-                  <h4>Weather API</h4>
+                  <h3>Covid Tracker API</h3>
                   <span class="site">
-                    <a href="https://leezy-vuejs-weather.netlify.app" target="blank">
+                    <a href="https://leezy-vuejs-covid19tracker.netlify.app" target="blank">
                     <img src="https://img.icons8.com/external-kmg-design-basic-outline-kmg-design/30/000000/external-web-business-management-kmg-design-basic-outline-kmg-design.png"/>
                     </a>
                   </span>
                   <span class="github">
-                    <a href="https://github.com/LeezyLazyCrazy/vue3-weather-api.git" target="blank">
+                    <a href="https://github.com/LeezyLazyCrazy/vue3-covidtracker-api.git" target="blank">
                     <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png"/>
                     </a>
                   </span>
@@ -179,28 +179,31 @@
             </div>
             <div class="techIcon">Technologies Used
               <div class="tech_img">
-                 <img src="https://img.icons8.com/windows/32/000000/vuejs.png"/>
-                 <img src="https://img.icons8.com/ios/50/000000/javascript--v1.png"/>
-                 <img src="https://img.icons8.com/ios/32/000000/sass.png"/>
+                <img src="https://img.icons8.com/windows/32/000000/vuejs.png"/>                
+                <img src="https://img.icons8.com/windows/32/000000/html-5.png"/>
+                <img src="https://img.icons8.com/windows/32/000000/css-filetype.png"/>
+                <img src="https://img.icons8.com/ios/50/000000/javascript--v1.png"/>
+                <img src="tailwind-logo.png" >             
+
               </div>             
             </div>            
           </v-col>
           <v-col cols="3" class="pf-box">           
               <div class="pfIcon">
                 <p class="icon">
-                  <a href="https://leezy-vuejs-weather.netlify.app" target="blank">
-                  <img src="https://img.icons8.com/carbon-copy/100/000000/partly-cloudy-night.png"/>
+                  <a href="https://leezy-portfolio.netlify.app" target="blank">
+                  <img src="pf.png">
                   </a>
                 </p>
                 <div id="desc">
-                  <h4>Weather API</h4>
+                  <h3>Portfolio</h3>
                   <span class="site">
-                    <a href="https://leezy-vuejs-weather.netlify.app" target="blank">
+                    <a href="https://leezy-portfolio.netlify.app" target="blank">
                     <img src="https://img.icons8.com/external-kmg-design-basic-outline-kmg-design/30/000000/external-web-business-management-kmg-design-basic-outline-kmg-design.png"/>
                     </a>
                   </span>
                   <span class="github">
-                    <a href="https://github.com/LeezyLazyCrazy/vue3-weather-api.git" target="blank">
+                    <a href="https://github.com/LeezyLazyCrazy/personal-pf.git" target="blank">
                     <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png"/>
                     </a>
                   </span>
@@ -211,6 +214,7 @@
                  <img src="https://img.icons8.com/windows/32/000000/vuejs.png"/>
                  <img src="https://img.icons8.com/ios/50/000000/javascript--v1.png"/>
                  <img src="https://img.icons8.com/ios/32/000000/sass.png"/>
+                 <img src="vuetify.png">
               </div>             
             </div>           
           </v-col>
@@ -226,6 +230,7 @@
                 <p class="emoji mt-6">👩🏻‍💻</p>
                 <h3>I'm a Flexible Developer</h3>
                 <p class="mt-2">끊임 없이 기초를 습득하고, 도전하며 IT기술과 문화의 현재 동향 그리고 미래의 트렌드를 항상 체크하는 프론트엔드 개발자 이지원입니다.</p>
+                <p>현재 집중하는것은  Vue.js 이고, 그리고 관심있는 것은 Three.js , Svelte, Metaverse 입니다. </p>
                 <p>#날것의 #스펀지같은상태 #센스탑재</p> 
                         
                 <p class="emoji t-6">👀</p> 
@@ -324,7 +329,15 @@
     background: #ffe600;
     right:0;
     left:0;
+    // width: 100vh;
   }
+  // body{
+  //   width: 100%;
+  // }
+  // #app{
+  //   width: fit-content;
+  // }
+  
   .first {
     display:flex;
     width:100%;
@@ -335,10 +348,11 @@
       -2px 0px 0 #c739ff, 0px -2px 0 #c739ff;
     }
     .hashtag {
-    margin-top: 20px;
-    font-size: 20px;
-    align-content: center;
-    color: rgb(250, 250, 250);
+      width: fit-content;
+      margin-top: 20px;
+      font-size: 20px;
+      align-content: center;
+      color: rgb(250, 250, 250);
     }
     .top {
     margin-top: 180px;
