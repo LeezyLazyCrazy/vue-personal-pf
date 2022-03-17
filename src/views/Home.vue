@@ -30,105 +30,17 @@
 
 <!-- 2nd section : project -->
       <div class="second " id="project">
-        <v-row class="pf justify-space-around mt-14">
-          <v-col cols="3" class="pf-box">          
-              <div class="pfIcon">
-                <p class="icon">
-                  <a href="https://leezy-vuejs-weather.netlify.app" target="blank">
-                  <img src="https://img.icons8.com/carbon-copy/100/000000/partly-cloudy-night.png"/>
-                  </a>
-                </p>
-                <div id="desc">
-                  <h4>Weather API</h4>
-                  <span class="site">
-                    <a href="https://leezy-vuejs-weather.netlify.app" target="blank">
-                    <img src="https://img.icons8.com/external-kmg-design-basic-outline-kmg-design/30/000000/external-web-business-management-kmg-design-basic-outline-kmg-design.png"/>
-                    </a>
-                  </span>
-                  <span class="github">
-                    <a href="https://github.com/LeezyLazyCrazy/vue3-weather-api.git" target="blank">
-                    <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png"/>
-                    </a>
-                  </span>
-              </div>           
-            </div>
-            <div class="techIcon">Technologies Used
-              <div class="tech_img">
-                 <img src="https://img.icons8.com/windows/32/000000/vuejs.png"/>
-                 <img src="https://img.icons8.com/ios/50/000000/javascript--v1.png"/>
-                 <img src="https://img.icons8.com/ios/32/000000/sass.png"/>
-              </div>             
-            </div>            
-          </v-col>
-          <v-col cols="3" class="pf-box">  
-              <div class="pfIcon">
-                <p class="icon">
-                  <a href="https://leezy-vuejs-weather.netlify.app" target="blank">
-                  <img src="https://img.icons8.com/carbon-copy/100/000000/partly-cloudy-night.png"/>
-                  </a>
-                </p>
-                <div id="desc">
-                  <h4>Weather API</h4>
-                  <span class="site">
-                    <a href="https://leezy-vuejs-weather.netlify.app" target="blank">
-                    <img src="https://img.icons8.com/external-kmg-design-basic-outline-kmg-design/30/000000/external-web-business-management-kmg-design-basic-outline-kmg-design.png"/>
-                    </a>
-                  </span>
-                  <span class="github">
-                    <a href="https://github.com/LeezyLazyCrazy/vue3-weather-api.git" target="blank">
-                    <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png"/>
-                    </a>
-                  </span>
-              </div>           
-            </div>
-            <div class="techIcon">Technologies Used
-              <div class="tech_img">
-                 <img src="https://img.icons8.com/windows/32/000000/vuejs.png"/>
-                 <img src="https://img.icons8.com/ios/50/000000/javascript--v1.png"/>
-                 <img src="https://img.icons8.com/ios/32/000000/sass.png"/>
-              </div>             
-            </div>          
-          </v-col>
-          <v-col cols="3" class="pf-box">          
-              <div class="pfIcon">
-                <p class="icon">
-                  <a href="https://leezy-vuejs-weather.netlify.app" target="blank">
-                  <img src="https://img.icons8.com/carbon-copy/100/000000/partly-cloudy-night.png"/>
-                  </a>
-                </p>
-                <div id="desc">
-                  <h4>Weather API</h4>
-                  <span class="site">
-                    <a href="https://leezy-vuejs-weather.netlify.app" target="blank">
-                    <img src="https://img.icons8.com/external-kmg-design-basic-outline-kmg-design/30/000000/external-web-business-management-kmg-design-basic-outline-kmg-design.png"/>
-                    </a>
-                  </span>
-                  <span class="github">
-                    <a href="https://github.com/LeezyLazyCrazy/vue3-weather-api.git" target="blank">
-                    <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png"/>
-                    </a>
-                  </span>
-              </div>           
-            </div>
-            <div class="techIcon">Technologies Used
-              <div class="tech_img">
-                 <img src="https://img.icons8.com/windows/32/000000/vuejs.png"/>
-                 <img src="https://img.icons8.com/ios/50/000000/javascript--v1.png"/>
-                 <img src="https://img.icons8.com/ios/32/000000/sass.png"/>
-              </div>             
-            </div>            
-          </v-col>
-        </v-row>
-        <v-row class=" pf justify-space-around mt-14">
+        <h1>PROJECT</h1>
+        <v-row class="pf justify-space-around mt-14" >
           <v-col cols="3" class="pf-box">
               <div class="pfIcon">
                 <p class="icon">
                   <a href="https://leezy-vuejs-weather.netlify.app" target="blank">
-                  <img src="https://img.icons8.com/carbon-copy/100/000000/partly-cloudy-night.png"/>
+                  <img src="https://img.icons8.com/doodle/95/000000/summer.png"/>
                   </a>
                 </p>
                 <div id="desc">
-                  <h4>Weather API</h4>
+                  <h3>Weather API</h3>
                   <span class="site">
                     <a href="https://leezy-vuejs-weather.netlify.app" target="blank">
                     <img src="https://img.icons8.com/external-kmg-design-basic-outline-kmg-design/30/000000/external-web-business-management-kmg-design-basic-outline-kmg-design.png"/>
@@ -144,8 +56,103 @@
             <div class="techIcon">Technologies Used
               <div class="tech_img">
                  <img src="https://img.icons8.com/windows/32/000000/vuejs.png"/>
+                 <img src="https://img.icons8.com/ios/32/000000/javascript--v1.png"/>
+                 <img src="https://img.icons8.com/ios/32/000000/sass.png"/>
+                 <img src="https://img.icons8.com/windows/32/000000/api-settings.png"/>
+              </div>             
+            </div>                        
+          </v-col>
+          <v-col cols="3" class="pf-box">  
+              <div class="pfIcon">
+                <p class="icon">
+                  <a href="https://leezy-vuejs-movie.netlify.app" target="blank">
+                  <img src="https://img.icons8.com/external-xnimrodx-lineal-color-xnimrodx/90/000000/external-video-online-marketing-xnimrodx-lineal-color-xnimrodx.png"/>
+                  </a>
+                </p>
+                <div id="desc">
+                  <h3>Movie API</h3>
+                  <span class="site">
+                    <a href="https://leezy-vuejs-movie.netlify.app" target="blank">
+                    <img src="https://img.icons8.com/external-kmg-design-basic-outline-kmg-design/30/000000/external-web-business-management-kmg-design-basic-outline-kmg-design.png"/>
+                    </a>
+                  </span>
+                  <span class="github">
+                    <a href="https://github.com/LeezyLazyCrazy/Vue3-MovieAPI-v1" target="blank">
+                    <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png"/>
+                    </a>
+                  </span>
+              </div>           
+            </div>
+            <div class="techIcon">Technologies Used
+              <div class="tech_img">
+                 <img src="https://img.icons8.com/windows/32/000000/vuejs.png"/>
                  <img src="https://img.icons8.com/ios/50/000000/javascript--v1.png"/>
                  <img src="https://img.icons8.com/ios/32/000000/sass.png"/>
+                 <img src="https://img.icons8.com/windows/32/000000/api-settings.png"/>
+                 <img src="https://img.icons8.com/windows/32/000000/bootstrap.png"/>
+              </div>             
+            </div>          
+          </v-col>
+          <v-col cols="3" class="pf-box">
+              <div class="pfIcon">
+                <p class="icon">
+                  <a href="https://leezy-vuejs-weather.netlify.app" target="blank">
+                  <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/100/000000/external-camp-camping-flaticons-lineal-color-flat-icons-2.png"/>
+                  </a>
+                </p>
+                <div id="desc">
+                  <h3>Camp API</h3>
+                  <span class="site">
+                    <a href="https://leezy-vuejs-weather.netlify.app" target="blank">
+                    <img src="https://img.icons8.com/external-kmg-design-basic-outline-kmg-design/30/000000/external-web-business-management-kmg-design-basic-outline-kmg-design.png"/>
+                    </a>
+                  </span>
+                  <span class="github">
+                    <a href="https://github.com/LeezyLazyCrazy/lbcamp_API-Project.git" target="blank">
+                    <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png"/>
+                    </a>
+                  </span>
+              </div>           
+            </div>
+            <div class="techIcon">Technologies Used
+              <div class="tech_img">
+                <img src="https://img.icons8.com/windows/32/000000/html-5.png"/>
+                <img src="https://img.icons8.com/windows/32/000000/css-filetype.png"/>
+                <img src="https://img.icons8.com/ios/50/000000/javascript--v1.png"/>
+                <img src="https://img.icons8.com/windows/32/000000/api-settings.png"/>
+                <img src="https://img.icons8.com/ios/32/000000/php-server.png"/>
+                 
+              </div>             
+            </div>            
+          </v-col>
+        </v-row>
+        <v-row class="pf justify-space-around mt-14">
+          <v-col cols="3" class="pf-box">          
+              <div class="pfIcon">
+                <p class="icon">
+                  <a href="https://leezy-threejs-squidgame.netlify.app" target="blank">
+                  <img src="https://img.icons8.com/color/95/000000/squid-game-square-guard.png"/>
+                  </a>
+                </p>
+                <div id="desc">
+                  <h3>Squid Game Three.js</h3>
+                  <span class="site">
+                    <a href="https://leezy-threejs-squidgame.netlify.app" target="blank">
+                    <img src="https://img.icons8.com/external-kmg-design-basic-outline-kmg-design/30/000000/external-web-business-management-kmg-design-basic-outline-kmg-design.png"/>
+                    </a>
+                  </span>
+                  <span class="github">
+                    <a href="https://github.com/LeezyLazyCrazy/SquidGame_ThreeJS.git" target="blank">
+                    <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png"/>
+                    </a>
+                  </span>
+              </div>           
+            </div>
+            <div class="techIcon">Technologies Used
+              <div class="tech_img">
+                <img src="https://img.icons8.com/windows/32/000000/html-5.png"/>
+                <img src="https://img.icons8.com/windows/32/000000/css-filetype.png"/>
+                <img src="three-js-logo.png">
               </div>             
             </div>            
           </v-col>
@@ -240,7 +247,7 @@
                     class="justify-space-around mt-8 ml-6 mr-6" 
                     icon @click="icon.path"
               >
-              <v-icon size="30px" color="#c739ff">{{ icon.name }}</v-icon>
+              <v-icon size="35px" color="#c739ff">{{ icon.name }}</v-icon>
               </v-btn>
               <h2> 👆🏻 </h2>
               <div id="text">
@@ -248,9 +255,9 @@
                   <h3>"Grab a cup of Coffee? then CLICK!!"</h3>  
               </div>        
             </div> 
-<!-- End of 4th section -->
           </v-row>
         </v-col>
+<!-- End of 4th section -->       
       </v-row>
     </v-container>
     <Footer />
@@ -342,55 +349,59 @@
   .second {
     width: 100%;
     text-align: center;
-    margin-top:150px;
+    margin-top:210px;
+    color:#010146;
     .pf-box {
-      border: 3px solid #010146;
+      border: 4px dotted #379700;
+      border-bottom: 8px solid #00008f;
+      _border: 3px dashed #010146;
       border-radius: 20px;
     }
       .pfIcon {
-      display: flex;
-      justify-content:center;    
+      display: block;
+      justify-content:center;
+      margin-top: 2px;  
       p{
-        border: 1px solid #c739ff;
-        border-radius: 30px;
+        _border: 2px solid #000000;
+        border-radius: 50px;
       }
       #desc{
-        padding-left: 5px;  
-        h4 {
+        margin: 10px 0 5px 0; 
+        h3 {
           margin-bottom: 12px;
         }   
         span{
           margin:0 5px; 
             img{
-            height:25px;
-            width: 25px;
-                  }
+            height:30px;
+            width: 30px;
+            }
+         }
         }
       }
-      }
-    #desc {
-      margin: 20px 5px;
+    .techIcon{
+      margin-top:10px;
+      .tech_img{
+        margin-top: 10px;
+        flex-direction: row;
+        img{
+          height:30px;
+          _width:30px;
+          margin-left: 6px;
+        }
+      }       
     }
-    .techIcon .tech_img{
-      margin-top: 10px;
-      img{
-        height: 35px;
-        width:35px;
-        margin-left: 4px;
-      }
-    }
-      p {   
-    flex-direction: row;
-    }
+
   }
+   
  
   .third {
     width: 100%;
     text-align: center;
     padding: 3rem 3rem;
     color: #030331;
-    .third .emoji{
-    font-size: 1.5rem;
+    .emoji{
+      font-size: 1.7rem;
     }
     .third h1{
       margin-top: 50px;
@@ -410,10 +421,10 @@
     text-align: center;
     padding: 3rem 3rem;
     color:#010146;
-    .fourth h2 {
+    h2 {
       margin-top: 30px;
     }
-    .fourth h3{
+    h3{
       margin-top: 10px;
      }
   }
@@ -421,6 +432,11 @@
 .row.pf{
  right: 0;
  left: 0;
+}
+
+.col-3 {
+    flex: 0 0 25%;
+    max-width: 20%;
 }
 </style> 
 
