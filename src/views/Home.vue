@@ -40,7 +40,7 @@
                   </a>
                 </p>
                 <div id="desc">
-                  <h3>Weather API</h3>
+                  <h3>Weather API Web</h3>
                   <span class="site">
                     <a href="https://leezy-vuejs-weather.netlify.app" target="blank">
                     <img src="https://img.icons8.com/external-kmg-design-basic-outline-kmg-design/30/000000/external-web-business-management-kmg-design-basic-outline-kmg-design.png"/>
@@ -135,7 +135,7 @@
                   </a>
                 </p>
                 <div id="desc">
-                  <h3>Squid Game Three.js</h3>
+                  <h3>Squid Game Web</h3>
                   <span class="site">
                     <a href="https://squidgamedoll-threejs.netlify.app" target="blank">
                     <img src="https://img.icons8.com/external-kmg-design-basic-outline-kmg-design/30/000000/external-web-business-management-kmg-design-basic-outline-kmg-design.png"/>
