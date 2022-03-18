@@ -130,7 +130,7 @@
           <v-col cols="3" class="pf-box">          
               <div class="pfIcon">
                 <p class="icon">
-                  <a href="https://leezy-threejs-squidgame.netlify.app" target="blank">
+                  <a href="https://squidgamedoll-threejs.netlify.app" target="blank">
                   <img src="squidgamedoll.png">
                   </a>
                 </p>
@@ -337,13 +337,14 @@
     overflow-x: hidden;
   }
   
-  
-  
   .first {
     overflow-x: hidden;
     display:flex;
     width:100%;
     height: 100%;
+    .col-6{
+
+    }
      .outline {
       color: rgb(250, 250, 250);
       text-shadow: 2px 2px 0 #c739ff, 2px -2px 0 #c739ff, -2px 2px 0 #c739ff, -2px -2px 0 #c739ff, 2px 0px 0 #c739ff, 0px 2px 0 #c739ff,
