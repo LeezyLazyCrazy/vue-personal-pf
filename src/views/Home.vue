@@ -96,14 +96,14 @@
           <v-col cols="3" class="pf-box">
               <div class="pfIcon">
                 <p class="icon">
-                  <a href="https://leezy-vuejs-weather.netlify.app" target="blank">
+                  <a href="renewal-web.netlify.app" target="blank">
                   <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/100/000000/external-camp-camping-flaticons-lineal-color-flat-icons-2.png"/>
                   </a>
                 </p>
                 <div id="desc">
-                  <h3>Camp API</h3>
+                  <h3>Renewal Web</h3>
                   <span class="site">
-                    <a href="https://leezy-vuejs-weather.netlify.app" target="blank">
+                    <a href="renewal-web.netlify.app" target="blank">
                     <img src="https://img.icons8.com/external-kmg-design-basic-outline-kmg-design/30/000000/external-web-business-management-kmg-design-basic-outline-kmg-design.png"/>
                     </a>
                   </span>
