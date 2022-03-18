@@ -18,14 +18,9 @@ export default {
   }),
 };
 </script>
-// <style lang="scss" scoped>
-// .wrap{
-//   background: linear-gradient(
-//     to bottom,
-//     #ffd54f,
-//     #ffd54f 10%,
-//     #fdd550 30%,
-//     #fac042 50%
-//   );
-//   }
-// </style>
+ <style lang="scss" scoped>
+    // #home{
+    //   width:100%;
+    //   overflow-x:hidden;
+    // }
+  </style>

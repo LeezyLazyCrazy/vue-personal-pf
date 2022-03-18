@@ -31,7 +31,7 @@
 <!-- 2nd section : project -->
       <div class="second " id="project">
         <h1>PROJECT</h1>
-        <v-row class="pf justify-space-around mt-14" >
+        <v-row class="pf justify-space-around mt-14 flex-{md}-{nowrap}">
           <v-col cols="3" class="pf-box">
               <div class="pfIcon">
                 <p class="icon">
@@ -126,7 +126,7 @@
             </div>            
           </v-col>
         </v-row>
-        <v-row class="pf justify-space-around mt-14">
+        <v-row class="pf justify-space-around mt-14" md="2">
           <v-col cols="3" class="pf-box">          
               <div class="pfIcon">
                 <p class="icon">
@@ -329,16 +329,18 @@
     background: #ffe600;
     right:0;
     left:0;
-    // width: 100vh;
+    width:100%;
+    overflow-x: hidden;
   }
-  // body{
-  //   width: 100%;
-  // }
-  // #app{
-  //   width: fit-content;
-  // }
+  .v-app{
+    width:100%;
+    overflow-x: hidden;
+  }
+  
+  
   
   .first {
+    overflow-x: hidden;
     display:flex;
     width:100%;
     height: 100%;
@@ -361,6 +363,7 @@
  
 
   .second {
+    overflow-x: hidden;
     width: 100%;
     text-align: center;
     margin-top:210px;
@@ -410,6 +413,7 @@
    
  
   .third {
+    overflow-x: hidden;
     width: 100%;
     text-align: center;
     padding: 3rem 3rem;
@@ -431,6 +435,7 @@
 
  
   .fourth {
+    overflow-x: hidden;
     width: 100%;
     text-align: center;
     padding: 3rem 3rem;
