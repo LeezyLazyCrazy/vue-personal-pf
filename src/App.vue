@@ -22,7 +22,7 @@ export default {
 
  <style>
   /* 반응형 최대크기 */
-#app { margin:0 auto; _width:750px; min-height:100%; _positon:relative;  }
+#app { margin:0 auto; _width:750px; min-height:100%; }
 
   /* 여백제거 + 드래그방지 */
 body{ padding:0; margin:0; -ms-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; user-select: none; }
@@ -37,7 +37,6 @@ body{ padding:0; margin:0; -ms-user-select: none; -moz-user-select: none; -khtml
     width:350px; height: 25px; justify-content: center; align-items: center;
     }
   }
-
   @media(max-width:735px){
      .first h1{
       font-size: 20px;
@@ -48,7 +47,6 @@ body{ padding:0; margin:0; -ms-user-select: none; -moz-user-select: none; -khtml
       height: 25px
     }
   }
-
   @media(max-width:630px){
     .first{
       flex-direction: column;
@@ -125,7 +123,6 @@ body{ padding:0; margin:0; -ms-user-select: none; -moz-user-select: none; -khtml
       margin-top: 56px !important;
       max-width: 100%;
     }
-
     .second .pf-box {
       margin-bottom: 30px;
       width:225px;
@@ -150,9 +147,6 @@ body{ padding:0; margin:0; -ms-user-select: none; -moz-user-select: none; -khtml
     }
   }
   @media(max-width:475px){
-    /* .v-toolbar__content {
-      padding: 0px 40px !important;
-    } */
     .v-toolbar__content, .v-toolbar__extension {  
       align-items: center;
       display: flex;
@@ -168,8 +162,16 @@ body{ padding:0; margin:0; -ms-user-select: none; -moz-user-select: none; -khtml
       width:300px;
       height:380px;
     }
+    .v-image{
+      max-height:400px;
+      height:420px;
+      margin-right: 50px;
+    }
     .first h3 {
-      margin-top: 0 !important;
+      margin: 0 70px 0 0!important;
+    }
+    .first h1 {
+       margin: 15px 60px 0 0;
     }
     .first h5 {
       display: none;
@@ -186,18 +188,15 @@ body{ padding:0; margin:0; -ms-user-select: none; -moz-user-select: none; -khtml
      .second .col-3{
       max-width: 70%;
     }
-
     .second .pf-box{
       margin-bottom: 20px;
       width: 200px;
     }
-
     .v-application .mt-14 {
-    margin-left: 63px;
+    margin-left: 55px;
     margin-top: 56px !important;
     max-width: 100%;
     }
-
     .second .pfIcon {
     display: flex;
     justify-content: center;
@@ -206,11 +205,9 @@ body{ padding:0; margin:0; -ms-user-select: none; -moz-user-select: none; -khtml
     .second .pfIcon #desc {
     font-size: 14px;
     }
-
     .second .techIcon{
       display: none;
     }
-
     .third{
       margin-right: 65px;
     }
@@ -218,4 +215,38 @@ body{ padding:0; margin:0; -ms-user-select: none; -moz-user-select: none; -khtml
       margin-right: 65px;
     }
   }
+
+  @media(max-width:345px){
+    .first .v-img{
+      background-position: top !important;
+    }
+    .first h3{
+    font-size:15px;
+    }
+    .first .outline{
+      display: flex;
+      justify-content: center;
+    }
+    .first h1{
+      font-size: 18px;
+    }
+    .second h1{
+      margin-left: 39px;
+    }
+    .second .pf-box{
+      margin-left: -21px;
+    }
+
+    .fourt{
+      padding: 0;
+    }
+    .fourth{
+      margin-top: 100px;
+    }
+    .fourth h1{
+      margin-left:-16px;
+      margin-top: 30px;
+    }
+  }
+
   </style>
