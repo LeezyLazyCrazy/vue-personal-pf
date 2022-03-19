@@ -10,20 +10,18 @@
           <v-img src="1.png" contain max-height="600"></v-img>
         </v-col>
         <v-col cols="6">
-          <h3 class="red-text text--darken-4 top">💻 Hello 👋🏻 This is Leezy</h3>
-          <div class="outline"><h1>{ Front-end Developer }</h1></div>
-          <h5 class="red-text text--darken-4">
-            사람은 믿어주는 만큼 자라고<br />
-            아껴주는 만큼 여물고<br />
-            인정받는 만큼 성장하는 법<br />
-            내가 선택한 주변 환경과 생각들에 따라 <br />
-            엄청난 결과의 차이를 만들 수 있다고 말이다<br />
+          <h1 class="red-text text--darken-4 top">
+            어떻게 하면 편리할까 고민하는 
+          </h1>
+          <div class="outline">
+            <h1>{ Front-end Developer 이지원입니다 }</h1>
+          </div>    
             <div class="hashtag">
-              <MARQUEE scrolldelay="200" width="400" height="30" hspace="50" vspace="50" bgColor="blue" behavior="scroll" loop="3">
-                #ISFP-T #create #passion #develope #dive #travell #drawing #netflix #pilates #dance
+              <MARQUEE scrolldelay="100" width="600" height="30" hspace="50" vspace="50" bgColor="blue" behavior="scroll" loop="3">
+                #html #javascript #scss #vue.js #vuetify #tailwind #github 
               </MARQUEE>
             </div>
-          </h5>
+         
         </v-col>
       </div>     
 <!-- End of 1st section -->
@@ -191,7 +189,7 @@
               <div class="pfIcon">
                 <p class="icon">
                   <a href="https://renewal-web.netlify.app/" target="blank">
-                  <img src="https://img.icons8.com/external-two-tone-chattapat-/90/000000/external-dance-party-and-celebration-two-tone-chattapat-.png"/>
+                  <img src="https://img.icons8.com/external-two-tone-chattapat-/95/000000/external-dance-party-and-celebration-two-tone-chattapat-.png"/>
                   </a>
                 </p>
                 <div id="desc">
@@ -225,18 +223,29 @@
         <v-col cols="12 mt-12">
           <v-row>       
             <div class="third mt-8 p-8" id="about">
-              <h1>ABOUT ME</h1>       
+              <h1>ABOUT ME</h1> 
+              <div class="about_box">
                 <p class="emoji mt-6">👩🏻‍💻</p>
-                <h3>I'm a Flexible Developer</h3>
-                <p class="mt-2">끊임 없이 기초를 습득하고, 도전하며 IT기술과 문화의 현재 동향 그리고 미래의 트렌드를 항상 체크하는 
-                <br/>프론트엔드 개발자 이지원입니다.</p>
-                <p>현재 집중하는것은  Vue.js 이고, 그리고 관심있는 것은 Three.js , Svelte, Metaverse 입니다. </p>
-                <p>#날것의 #스펀지같은상태 #센스탑재</p> 
-                        
-                <p class="emoji t-6">👀</p> 
-                <p>Site: freecodecamp,  techcrunch, ttime, ITWORLD</p>
-                <p>Youtube: Traversy Media, Nomad coders,eo, 드림코딩by엘리 </p> 
-            </div>
+                  <h2>I'm a Flexible Developer</h2>
+                  <span class="mt-2">
+                    <h4>끊임 없이 기초를 습득하고 도전하며 
+                    <br/>IT기술과 문화의 현재 동향 그리고 미래의 트렌드를 항상 체크하는 
+                    <br/>프론트엔드 개발자 이지원 입니다. </h4>                  
+                    <h4>현재 집중하는것은  Vue.js 이고, 그리고 관심있는 것은 Three.js, Svelte, Metaverse 입니다. </h4>
+                    <h4>하지만 무엇보다 제가 개발에 있어서 가장 중요시하는 부분은 사용자의 입장에서 쓰기 편리한 맞춤 서비스라고 생각합니다.</h4>
+                    <h4>#날것의 #스펀지같은상태 #센스탑재</h4>                  
+                  </span> 
+                  <div class="about_skills">
+                    <p class="emoji t-6">✨</p> 
+                    <h2>Skills</h2>
+                    <h3>#HTML #CSS #SASS #JAVASCRIPT #VUE.JS</h3>
+                  </div>                   
+                    <p class="emoji t-6">👀</p> 
+                    <p>References Site: freecodecamp,  techcrunch, ttime, ITWORLD</p>
+                    <p>Youtube: Traversy Media, Nomad coders,eo, 드림코딩by엘리 </p> 
+                                        
+              </div>
+             </div> 
           </v-row>
         </v-col>
 <!-- End of 3rd section -->
@@ -331,10 +340,12 @@
     left:0;
     width:100%;
     overflow-x: hidden;
+    
   }
   .v-app{
     width:100%;
     overflow-x: hidden;
+    
   }
   
   .first {
@@ -342,10 +353,9 @@
     display:flex;
     width:100%;
     height: 100%;
-    .col-6{
 
-    }
     .outline {
+      font-size:20px;
       color: rgb(250, 250, 250);
       text-shadow: 2px 2px 0 #c739ff, 2px -2px 0 #c739ff, -2px 2px 0 #c739ff, -2px -2px 0 #c739ff, 2px 0px 0 #c739ff, 0px 2px 0 #c739ff,
       -2px 0px 0 #c739ff, 0px -2px 0 #c739ff;
@@ -364,9 +374,7 @@
  
 
   .second {
-
     -ms-overflow-style: none;
-
     overflow-x: hidden;
     width: 100%;
     text-align: center;
@@ -376,9 +384,9 @@
     .second::-webkit-scrollbar{ display:none; }
 
     .pf-box {
-      border: 4px dotted #379700;
+      background-color:#efb1f8;
+      border: 6px dotted #379700;
       border-bottom: 8px solid #00008f;
-      _border: 3px dashed #010146;
       border-radius: 20px;
     }
       .pfIcon {
@@ -425,18 +433,34 @@
     text-align: center;
     padding: 6rem 3rem;
     color: #030331;
+    .about_box{
+      margin-top: 20px;
+      border: 6px dotted #379700;
+      border-bottom: 8px solid #00008f;
+      border-radius: 20px;
+      background-color:#ffebb4;
+      
+      span{
+        margin-top: 10px;
+      }
+    }
+    .about_skills {
+      margin-bottom: 20px;
+    }
+
     .emoji{
       font-size: 1.7rem;
+      margin:16px 0 16px 0;
     }
     .third h1{
       margin-top: 50px;
       color:#010146;
     }
-    .third h3{
-      color:#c739ff;
-    }
-    .third h5{
-      color:#c739ff;
+    .third .about_sills{
+      width: 72%;
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;      
     }
   }
 
