@@ -216,7 +216,17 @@ body{ padding:0; margin:0; -ms-user-select: none; -moz-user-select: none; -khtml
     }
   }
 
-  @media(max-width:345px){
+  @media(max-width:375px){
+    .second h1{
+      margin-left: 49px;
+    }
+    .second .pf-box{
+      margin-left: -21px;
+    }
+
+  }
+  
+  @media(max-width:346px){
     .first .v-img{
       background-position: top !important;
     }
