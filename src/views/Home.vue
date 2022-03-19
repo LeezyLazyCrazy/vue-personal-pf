@@ -28,7 +28,7 @@
 
 <!-- 2nd section : project -->
       <div class="second " id="project">
-        <h1>PROJECT</h1>
+        <h1>PROJECTS</h1>
         <v-row class="pf justify-space-around mt-14 flex-{md}-{nowrap}">
           <v-col cols="3" class="pf-box" id="portfolio">           
               <div class="pfIcon">
