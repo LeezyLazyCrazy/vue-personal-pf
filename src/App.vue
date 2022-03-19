@@ -224,8 +224,7 @@ body{ padding:0; margin:0; -ms-user-select: none; -moz-user-select: none; -khtml
       margin-left: -21px;
     }
 
-  }
-  
+  } 
   @media(max-width:346px){
     .first .v-img{
       background-position: top !important;
@@ -258,5 +257,4 @@ body{ padding:0; margin:0; -ms-user-select: none; -moz-user-select: none; -khtml
       margin-top: 30px;
     }
   }
-
   </style>

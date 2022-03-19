@@ -32,22 +32,22 @@
       <div class="second " id="project">
         <h1>PROJECT</h1>
         <v-row class="pf justify-space-around mt-14 flex-{md}-{nowrap}">
-          <v-col cols="3" class="pf-box">
+          <v-col cols="3" class="pf-box" id="portfolio">           
               <div class="pfIcon">
                 <p class="icon">
-                  <a href="https://leezy-vuejs-weather.netlify.app" target="blank">
-                  <img src="https://img.icons8.com/doodle/95/000000/summer.png"/>
+                  <a href="https://leezy-portfolio.netlify.app" target="blank">
+                  <img src="pf.png">
                   </a>
                 </p>
                 <div id="desc">
-                  <h3>Weather API Web</h3>
+                  <h3>Portfolio</h3>
                   <span class="site">
-                    <a href="https://leezy-vuejs-weather.netlify.app" target="blank">
+                    <a href="https://leezy-portfolio.netlify.app" target="blank">
                     <img src="https://img.icons8.com/external-kmg-design-basic-outline-kmg-design/30/000000/external-web-business-management-kmg-design-basic-outline-kmg-design.png"/>
                     </a>
                   </span>
                   <span class="github">
-                    <a href="https://github.com/LeezyLazyCrazy/vue3-weather-api.git" target="blank">
+                    <a href="https://github.com/LeezyLazyCrazy/personal-pf.git" target="blank">
                     <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png"/>
                     </a>
                   </span>
@@ -56,13 +56,13 @@
             <div class="techIcon">Technologies Used
               <div class="tech_img">
                  <img src="https://img.icons8.com/windows/32/000000/vuejs.png"/>
-                 <img src="https://img.icons8.com/ios/32/000000/javascript--v1.png"/>
+                 <img src="https://img.icons8.com/ios/50/000000/javascript--v1.png"/>
                  <img src="https://img.icons8.com/ios/32/000000/sass.png"/>
-                 <img src="https://img.icons8.com/windows/32/000000/api-settings.png"/>
+                 <img src="https://img.icons8.com/windows/32/000000/vuetify.png"/>
               </div>             
-            </div>                        
+            </div>           
           </v-col>
-          <v-col cols="3" class="pf-box">  
+          <v-col cols="3" class="pf-box" id="movie">  
               <div class="pfIcon">
                 <p class="icon">
                   <a href="https://leezy-vuejs-movie.netlify.app" target="blank">
@@ -93,22 +93,22 @@
               </div>             
             </div>          
           </v-col>
-          <v-col cols="3" class="pf-box">
+          <v-col cols="3" class="pf-box" id="weather">
               <div class="pfIcon">
                 <p class="icon">
-                  <a href="https://renewal-web.netlify.app/" target="blank">
-                  <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/100/000000/external-camp-camping-flaticons-lineal-color-flat-icons-2.png"/>
+                  <a href="https://leezy-vuejs-weather.netlify.app" target="blank">
+                  <img src="https://img.icons8.com/doodle/95/000000/summer.png"/>
                   </a>
                 </p>
                 <div id="desc">
-                  <h3>Renewal Web</h3>
+                  <h3>Weather API Web</h3>
                   <span class="site">
-                    <a href="https://renewal-web.netlify.app/" target="blank">
+                    <a href="https://leezy-vuejs-weather.netlify.app" target="blank">
                     <img src="https://img.icons8.com/external-kmg-design-basic-outline-kmg-design/30/000000/external-web-business-management-kmg-design-basic-outline-kmg-design.png"/>
                     </a>
                   </span>
                   <span class="github">
-                    <a href="https://github.com/LeezyLazyCrazy/lbcamp_API-Project.git" target="blank">
+                    <a href="https://github.com/LeezyLazyCrazy/vue3-weather-api.git" target="blank">
                     <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png"/>
                     </a>
                   </span>
@@ -116,47 +116,17 @@
             </div>
             <div class="techIcon">Technologies Used
               <div class="tech_img">
-                <img src="https://img.icons8.com/windows/32/000000/html-5.png"/>
-                <img src="https://img.icons8.com/windows/32/000000/css-filetype.png"/>
-                <img src="https://img.icons8.com/ios/50/000000/javascript--v1.png"/>
-                <img src="https://img.icons8.com/windows/32/000000/api-settings.png"/>
-                <img src="https://img.icons8.com/ios/32/000000/php-server.png"/>
-                 
+                 <img src="https://img.icons8.com/windows/32/000000/vuejs.png"/>
+                 <img src="https://img.icons8.com/ios/32/000000/javascript--v1.png"/>
+                 <img src="https://img.icons8.com/ios/32/000000/sass.png"/>
+                 <img src="https://img.icons8.com/windows/32/000000/api-settings.png"/>
               </div>             
-            </div>            
+            </div>                        
           </v-col>
+              
         </v-row>
         <v-row class="pf justify-space-around mt-14" md="2">
-          <v-col cols="3" class="pf-box">          
-              <div class="pfIcon">
-                <p class="icon">
-                  <a href="https://squidgamedoll-threejs.netlify.app" target="blank">
-                  <img src="squidgamedoll.png">
-                  </a>
-                </p>
-                <div id="desc">
-                  <h3>Squid Game Web</h3>
-                  <span class="site">
-                    <a href="https://squidgamedoll-threejs.netlify.app" target="blank">
-                    <img src="https://img.icons8.com/external-kmg-design-basic-outline-kmg-design/30/000000/external-web-business-management-kmg-design-basic-outline-kmg-design.png"/>
-                    </a>
-                  </span>
-                  <span class="github">
-                    <a href="https://github.com/LeezyLazyCrazy/squidgame_threejs_pf.git" target="blank">
-                    <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png"/>
-                    </a>
-                  </span>
-              </div>           
-            </div>
-            <div class="techIcon">Technologies Used
-              <div class="tech_img">
-                <img src="https://img.icons8.com/windows/32/000000/html-5.png"/>
-                <img src="https://img.icons8.com/windows/32/000000/css-filetype.png"/>
-                <img src="three-js-logo.png">
-              </div>             
-            </div>            
-          </v-col>
-          <v-col cols="3" class="pf-box">           
+          <v-col cols="3" class="pf-box" id="covid">           
               <div class="pfIcon">
                 <p class="icon">
                   <a href="https://leezy-vuejs-covid19tracker.netlify.app" target="blank">
@@ -183,27 +153,27 @@
                 <img src="https://img.icons8.com/windows/32/000000/html-5.png"/>
                 <img src="https://img.icons8.com/windows/32/000000/css-filetype.png"/>
                 <img src="https://img.icons8.com/ios/50/000000/javascript--v1.png"/>
-                <img src="tailwind-logo.png" >             
+                <img src="tailwind_icon.png" >             
 
               </div>             
             </div>            
           </v-col>
-          <v-col cols="3" class="pf-box">           
+          <v-col cols="3" class="pf-box" id="squidgame">          
               <div class="pfIcon">
                 <p class="icon">
-                  <a href="https://leezy-portfolio.netlify.app" target="blank">
-                  <img src="pf.png">
+                  <a href="https://squidgamedoll-threejs.netlify.app" target="blank">
+                  <img src="squidgamedoll.png">
                   </a>
                 </p>
                 <div id="desc">
-                  <h3>Portfolio</h3>
+                  <h3>Squid Game Web</h3>
                   <span class="site">
-                    <a href="https://leezy-portfolio.netlify.app" target="blank">
+                    <a href="https://squidgamedoll-threejs.netlify.app" target="blank">
                     <img src="https://img.icons8.com/external-kmg-design-basic-outline-kmg-design/30/000000/external-web-business-management-kmg-design-basic-outline-kmg-design.png"/>
                     </a>
                   </span>
                   <span class="github">
-                    <a href="https://github.com/LeezyLazyCrazy/personal-pf.git" target="blank">
+                    <a href="https://github.com/LeezyLazyCrazy/squidgame_threejs_pf.git" target="blank">
                     <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png"/>
                     </a>
                   </span>
@@ -211,13 +181,42 @@
             </div>
             <div class="techIcon">Technologies Used
               <div class="tech_img">
-                 <img src="https://img.icons8.com/windows/32/000000/vuejs.png"/>
-                 <img src="https://img.icons8.com/ios/50/000000/javascript--v1.png"/>
-                 <img src="https://img.icons8.com/ios/32/000000/sass.png"/>
-                 <img src="vuetify.png">
+                <img src="https://img.icons8.com/windows/32/000000/html-5.png"/>
+                <img src="https://img.icons8.com/windows/32/000000/css-filetype.png"/>
+                <img src="three_icon.png">
               </div>             
-            </div>           
+            </div>            
           </v-col>
+          <v-col cols="3" class="pf-box" id="renewal">
+              <div class="pfIcon">
+                <p class="icon">
+                  <a href="https://renewal-web.netlify.app/" target="blank">
+                  <img src="https://img.icons8.com/external-two-tone-chattapat-/90/000000/external-dance-party-and-celebration-two-tone-chattapat-.png"/>
+                  </a>
+                </p>
+                <div id="desc">
+                  <h3>Renewal Web</h3>
+                  <span class="site">
+                    <a href="https://renewal-web.netlify.app/" target="blank">
+                    <img src="https://img.icons8.com/external-kmg-design-basic-outline-kmg-design/30/000000/external-web-business-management-kmg-design-basic-outline-kmg-design.png"/>
+                    </a>
+                  </span>
+                  <span class="github">
+                    <a href="https://github.com/LeezyLazyCrazy/renewal" target="blank">
+                    <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png"/>
+                    </a>
+                  </span>
+              </div>           
+            </div>
+            <div class="techIcon">Technologies Used
+              <div class="tech_img">
+                <img src="https://img.icons8.com/windows/32/000000/html-5.png"/>
+                <img src="https://img.icons8.com/windows/32/000000/css-filetype.png"/>
+                <img src="https://img.icons8.com/ios/50/000000/javascript--v1.png"/>            
+              </div>             
+            </div>            
+          </v-col>
+        
         </v-row>       
       </div>
 <!-- End of 2nd section -->
@@ -346,7 +345,7 @@
     .col-6{
 
     }
-     .outline {
+    .outline {
       color: rgb(250, 250, 250);
       text-shadow: 2px 2px 0 #c739ff, 2px -2px 0 #c739ff, -2px 2px 0 #c739ff, -2px -2px 0 #c739ff, 2px 0px 0 #c739ff, 0px 2px 0 #c739ff,
       -2px 0px 0 #c739ff, 0px -2px 0 #c739ff;
@@ -365,11 +364,17 @@
  
 
   .second {
+
+    -ms-overflow-style: none;
+
     overflow-x: hidden;
     width: 100%;
     text-align: center;
     margin-top:210px;
+    padding: 6em 3em;
     color:#010146;
+    .second::-webkit-scrollbar{ display:none; }
+
     .pf-box {
       border: 4px dotted #379700;
       border-bottom: 8px solid #00008f;
@@ -418,7 +423,7 @@
     overflow-x: hidden;
     width: 100%;
     text-align: center;
-    padding: 3rem 3rem;
+    padding: 6rem 3rem;
     color: #030331;
     .emoji{
       font-size: 1.7rem;
