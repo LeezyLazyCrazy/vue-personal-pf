@@ -383,9 +383,9 @@
     .second::-webkit-scrollbar{ display:none; }
 
     .pf-box {
-      background-color:#efb1f8;
-      border: 6px dotted #379700;
-      border-bottom: 8px solid #00008f;
+      background-color: #0e9714ab;
+      border: 6px dotted #d20c0cf0;
+      border-bottom: 14px solid #176aff;
       border-radius: 20px;
     }
       .pfIcon {
@@ -400,6 +400,8 @@
         margin: 10px 0 5px 0; 
         h3 {
           margin-bottom: 12px;
+          color: beige;
+          font-size: 30px;
         }   
         span{
           margin:0 5px; 
@@ -434,10 +436,11 @@
     color: #030331;
     .about_box{
       margin-top: 20px;
-      border: 6px dotted #379700;
-      border-bottom: 8px solid #00008f;
-      border-radius: 20px;
-      background-color:#ffebb4;
+      border: 7px dotted #424242;
+      border-bottom: 10px solid #aa096d;
+      border-radius: 60px;
+      background-color: #bababa;
+      color: #fafafa;
       
       span{
         margin-top: 10px;
