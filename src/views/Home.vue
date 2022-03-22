@@ -17,7 +17,7 @@
             <h1>{ Front-end Developer 이지원입니다 }</h1>
           </div>    
             <div class="hashtag">
-              <MARQUEE scrolldelay="100" width="600" height="30" hspace="50" vspace="50" bgColor="blue" behavior="scroll" loop="3">
+              <MARQUEE scrolldelay="100" width="600" height="30" hspace="50" vspace="50" bgColor="#176aff" behavior="scroll" loop="3">
                 #html #javascript #scss #vue.js #vuetify #tailwind #github 
               </MARQUEE>
             </div>
@@ -260,7 +260,7 @@
                     class="justify-space-around mt-8 ml-6 mr-6" 
                     icon @click="icon.path"
               >
-              <v-icon size="35px" color="#c739ff">{{ icon.name }}</v-icon>
+              <v-icon size="35px" color="#ffff">{{ icon.name }}</v-icon>
               </v-btn>
               <h2> 👆🏻 </h2>
               <div id="text">
@@ -435,12 +435,16 @@
     padding: 6rem 3rem;
     color: #030331;
     .about_box{
+      white-space: inherit;
+      text-align: center;
       margin-top: 20px;
       border: 7px dotted #424242;
       border-bottom: 10px solid #aa096d;
       border-radius: 60px;
       background-color: #bababa;
       color: #fafafa;
+      padding: 0 10px 0 10px;
+      word-break: keep-all;
       
       span{
         margin-top: 10px;
@@ -490,5 +494,6 @@
     flex: 0 0 25%;
     max-width: 20%;
 }
+
 </style> 
 
