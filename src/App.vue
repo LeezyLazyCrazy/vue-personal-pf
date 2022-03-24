@@ -52,11 +52,16 @@ body{ padding:0; margin:0; -ms-user-select: none; -moz-user-select: none; -khtml
       flex-direction: column;
       max-width:100%;
       text-align: center;
+      position: relative;
     }
+    .col .intro-img{position: relative;}
+    .col .intro-text{position: absolute;}
+
     .first .v-img{
       justify-content: center;
       width:380px;
       height: 420px;
+      position: relative;
     }
     .v-image{
       max-height:400px;
@@ -65,7 +70,7 @@ body{ padding:0; margin:0; -ms-user-select: none; -moz-user-select: none; -khtml
     }
 
     .first .top{
-      margin-top:0%;
+      margin-top: 0 !important;
     }
     #intro > div:nth-child(2) > h3 {
       margin-top: 50px;
@@ -74,10 +79,11 @@ body{ padding:0; margin:0; -ms-user-select: none; -moz-user-select: none; -khtml
     .first .col-6 {
       flex-wrap:nowrap;
       max-width:100%; 
+      position: relative;
     }
-    .first .top {
-      margin-top: 180px;
-    }
+    /* .first .top h1 {
+     margin-top: 0 !important;
+    } */
     #intro > div:nth-child(2) > h3{
       /* margin-right:110px; */
       margin: 30px 110px 0 0;
@@ -93,6 +99,7 @@ body{ padding:0; margin:0; -ms-user-select: none; -moz-user-select: none; -khtml
       margin: 0%;
       left: 0%;
       right: 0%;
+      margin-left: 20px;
     }
     .first MARQUEE {   
       _display: table; 
@@ -107,19 +114,19 @@ body{ padding:0; margin:0; -ms-user-select: none; -moz-user-select: none; -khtml
     }
     .second h1 {
       width: 80px;
-      margin-left:135px;
+      margin-left:95px;
     }
     .second .icon img {
       height: 60px;
     }
     .second .col-3{
-      max-width: 50%;
+      max-width: 70%;
     }
     .second .justify-space-around {
       display: block;
     }
     .v-application .mt-14 {
-      margin-left: 90px;
+      margin-left: 68px;
       margin-top: 56px !important;
       max-width: 100%;
     }
@@ -129,7 +136,7 @@ body{ padding:0; margin:0; -ms-user-select: none; -moz-user-select: none; -khtml
     }
 
     .third {
-      margin-right: 110px;
+      margin-right: 80px;
       padding: 0 !important;
     }
     .third h1{
@@ -139,7 +146,7 @@ body{ padding:0; margin:0; -ms-user-select: none; -moz-user-select: none; -khtml
       font-size: 15px;
     }
     .fourth{
-      margin-right: 110px;
+      margin-right: 80px;
       margin-top: 55px !important;
     }
     .fourth h3 {

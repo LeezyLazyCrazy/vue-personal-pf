@@ -6,11 +6,11 @@
     <v-container fluid align-center>
       <v-row class="mt-14">
       <div class="first" id="intro">
-        <v-col cols="6" >
-          <v-img src="1.png" contain max-height="600"></v-img>
+        <v-col cols="6 intro-img" class="intro-img" >
+          <v-img src="1.png" contain max-height="500"></v-img>
         </v-col>
-        <v-col cols="6">
-          <h1 class="red-text text--darken-4 top">
+        <v-col cols="6 intro-text" class="intro-text">
+          <h1 class="top" color="#3b41b7">
             어떻게 하면 편리할까 고민하는 
           </h1>
           <div class="outline">
@@ -234,15 +234,63 @@
                     <h4>하지만 무엇보다 제가 개발에 있어서 가장 중요시하는 부분은 사용자의 입장에서 쓰기 편리한 맞춤 서비스라고 생각합니다.</h4>
                     <h4>#날것의신입 #스펀지같은상태 #센스탑재</h4>                  
                   </span> 
-                  <div class="about_skills">
+                  <div class="about_skills ">
                     <p class="emoji t-6">✨</p> 
                     <h2>Skills</h2>
-                    <h3>#HTML #CSS #SASS #JAVASCRIPT #VUE.JS</h3>
+                    <div class="text-center">
+                        <v-chip
+                        class="ma-2"
+                        color="secondary"
+                      >
+                        Html
+                      </v-chip>
+                  
+                      <v-chip
+                        class="ma-2"
+                       color="secondary"
+                      >
+                        CSS
+                      </v-chip>
+                  
+                      <v-chip
+                        class="ma-2"
+                        color="secondary"
+                      >
+                        Javascript
+                      </v-chip>
+                  
+                      <v-chip
+                        class="ma-2"
+                        color="secondary"
+                      >
+                        vue.js
+                      </v-chip>
+                  
+                      <v-chip
+                        class="ma-2"
+                        color="secondary"
+                      >
+                        React
+                      </v-chip>
+                      
+                      <v-chip
+                        class="ma-2"
+                        color="secondary"
+                      >
+                        Sass
+                      </v-chip>
+
+                      <v-chip
+                        class="ma-2"
+                        color="secondary"
+                      >
+                        Vuetify
+                      </v-chip>
+                    </div>    
                   </div>                   
                     <p class="emoji t-6">👀</p> 
                     <p>References Site: freecodecamp,  techcrunch, ttime, ITWORLD</p>
-                    <p>Youtube: Traversy Media, Nomad coders,eo, 드림코딩by엘리 </p> 
-                                        
+                    <p>Youtube: Traversy Media, Nomad coders,eo, 드림코딩by엘리 </p>                                        
               </div>
              </div> 
           </v-row>
@@ -352,12 +400,14 @@
     display:flex;
     width:100%;
     height: 100%;
+    white-space: inherit;
+    word-break: keep-all;
 
     .outline {
       font-size:20px;
       color: rgb(250, 250, 250);
-      text-shadow: 2px 2px 0 #c739ff, 2px -2px 0 #c739ff, -2px 2px 0 #c739ff, -2px -2px 0 #c739ff, 2px 0px 0 #c739ff, 0px 2px 0 #c739ff,
-      -2px 0px 0 #c739ff, 0px -2px 0 #c739ff;
+      text-shadow: 2px 2px 0 #6886C5, 2px -2px 0 #6886C5, -2px 2px 0 #6886C5, -2px -2px 0 #6886C5, 2px 0px 0 #6886C5, 0px 2px 0 #6886C5,
+      -2px 0px 0 #6886C5, 0px -2px 0 #6886C5;
     }
     .hashtag {
       width: fit-content;
@@ -368,6 +418,7 @@
     }
     .top {
     margin-top: 180px;
+    color:#3b41b7;
     }
   }
  
@@ -379,13 +430,13 @@
     text-align: center;
     margin-top:210px;
     padding: 6em 3em;
-    color:#010146;
+    color:#7325ff;
     .second::-webkit-scrollbar{ display:none; }
 
     .pf-box {
-      background-color: #0e9714ab;
-      border: 6px dotted #d20c0cf0;
-      border-bottom: 14px solid #176aff;
+      background-color: #e7e7e7;
+      border: 6px dotted #ffbc6d;
+      border-bottom: 14px solid #ff6325f5;
       border-radius: 20px;
     }
       .pfIcon {
@@ -400,7 +451,7 @@
         margin: 10px 0 5px 0; 
         h3 {
           margin-bottom: 12px;
-          color: beige;
+          color: #3921aa;
           font-size: 30px;
         }   
         span{
@@ -432,23 +483,20 @@
     overflow-x: hidden;
     width: 100%;
     text-align: center;
-    padding: 6rem 3rem;
-    color: #030331;
+    padding: 6rem 10rem;
+    color: #7325ff;
     .about_box{
       white-space: inherit;
       text-align: center;
       margin-top: 20px;
-      border: 7px dotted #424242;
-      border-bottom: 10px solid #aa096d;
+      border: 7px dotted #ece3ae;
+      border-bottom: 10px solid #ece3ae;
       border-radius: 60px;
-      background-color: #bababa;
+      background-color: #46724f47;
       color: #fafafa;
       padding: 0 10px 0 10px;
       word-break: keep-all;
       
-      span{
-        margin-top: 10px;
-      }
     }
     .about_skills {
       margin-bottom: 20px;
@@ -476,7 +524,7 @@
     width: 100%;
     text-align: center;
     padding: 3rem 3rem;
-    color:#010146;
+    color:#7325ff;
     h2 {
       margin-top: 30px;
     }
