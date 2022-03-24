@@ -387,6 +387,8 @@
     left:0;
     width:100%;
     overflow-x: hidden;
+    white-space: inherit;
+    word-break: keep-all;
     
   }
   .v-app{

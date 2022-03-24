@@ -248,6 +248,9 @@ body{ padding:0; margin:0; -ms-user-select: none; -moz-user-select: none; -khtml
 
   @media(max-width:375px){
 
+    .first .col-6{
+      margin: 0 15px;
+    }
     .first MARQUEE {
       width: 215px;
     }
@@ -256,11 +259,24 @@ body{ padding:0; margin:0; -ms-user-select: none; -moz-user-select: none; -khtml
       white-space: inherit;
       word-break: keep-all;
     }
+    .second .col-3{
+      max-width: 90%;
+    }
+    .second .v-application .mt-14 {
+      margin-left: 16px;
+      max-width: 100%;
+    }
     .second h1{
-      margin-left: 18px;
+      margin-left: 10px;
     }
     .second .pf-box{
-      margin-left: -20px;
+      margin-left: -40px;
+    }
+    .third{
+      margin-right: 50px;
+    }
+    .fourth {
+      margin-right: 50px;
     }
    
   } 
