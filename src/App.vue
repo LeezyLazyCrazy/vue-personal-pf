@@ -38,6 +38,10 @@ body{ padding:0; margin:0; -ms-user-select: none; -moz-user-select: none; -khtml
     }
   }
   @media(max-width:735px){
+    .first{
+      white-space: inherit;
+      word-break: keep-all;
+    }
      .first h1{
       font-size: 20px;
     }
@@ -45,6 +49,22 @@ body{ padding:0; margin:0; -ms-user-select: none; -moz-user-select: none; -khtml
       font-size: 15px;
       width: 300px;
       height: 25px
+    }
+
+    .second{
+      text-align: center;
+      white-space: inherit;
+      word-break: keep-all;
+    }
+    .second #desc h3{
+      font-size: 20px !important;
+    }
+    .second .pf-box {
+      display: table
+    }
+    .second .pfIcon  p img{
+      display: block;
+      margin: auto;
     }
   }
   @media(max-width:630px){
@@ -81,11 +101,9 @@ body{ padding:0; margin:0; -ms-user-select: none; -moz-user-select: none; -khtml
       max-width:100%; 
       position: relative;
     }
-    /* .first .top h1 {
-     margin-top: 0 !important;
-    } */
+   
     #intro > div:nth-child(2) > h3{
-      /* margin-right:110px; */
+  
       margin: 30px 110px 0 0;
     }
     .first h1 {
@@ -174,33 +192,38 @@ body{ padding:0; margin:0; -ms-user-select: none; -moz-user-select: none; -khtml
       height:420px;
       margin-right: 50px;
     }
+    .first MARQUEE {
+      width: 300px;
+      margin: 10px;
+    }
     .first h3 {
       margin: 0 70px 0 0!important;
     }
     .first h1 {
-       margin: 15px 60px 0 0;
+       margin: 5px 60px 0 0;
     }
-    .first h5 {
-      display: none;
+    .first .hashtag {
+      margin: 0 !important ;
     }
-
     .second{
+      white-space: inherit;
+      word-break: keep-all;
       padding-top: 80px !important;
       margin-top: 0% !important;
     }
    .second h1 {
       width: 8px;
-      margin-left:88px;
+      margin-left:57px;
     }
      .second .col-3{
-      max-width: 70%;
+      max-width: 80%;
     }
     .second .pf-box{
       margin-bottom: 20px;
       width: 200px;
     }
     .v-application .mt-14 {
-    margin-left: 55px;
+    margin-left: 36px;
     margin-top: 56px !important;
     max-width: 100%;
     }
@@ -224,13 +247,22 @@ body{ padding:0; margin:0; -ms-user-select: none; -moz-user-select: none; -khtml
   }
 
   @media(max-width:375px){
+
+    .first MARQUEE {
+      width: 215px;
+    }
+    .second{
+      display: table;
+      white-space: inherit;
+      word-break: keep-all;
+    }
     .second h1{
-      margin-left: 49px;
+      margin-left: 18px;
     }
     .second .pf-box{
-      margin-left: -21px;
+      margin-left: -20px;
     }
-
+   
   } 
   @media(max-width:346px){
     .first .v-img{

@@ -14,7 +14,7 @@
             어떻게 하면 편리할까 고민하는 
           </h1>
           <div class="outline">
-            <h1>{ Front-end Developer 이지원입니다 }</h1>
+            <h1>Front-end Developer 이지원입니다</h1>
           </div>    
             <div class="hashtag">
               <MARQUEE scrolldelay="100" width="600" height="30" hspace="50" vspace="50" bgColor="#176aff" behavior="scroll" loop="3">
@@ -38,7 +38,7 @@
                   </a>
                 </p>
                 <div id="desc">
-                  <h3>Portfolio</h3>
+                  <h3>Portfolio Web</h3>
                   <span class="site">
                     <a href="https://leezy-portfolio.netlify.app" target="blank">
                     <img src="https://img.icons8.com/external-kmg-design-basic-outline-kmg-design/30/000000/external-web-business-management-kmg-design-basic-outline-kmg-design.png"/>
