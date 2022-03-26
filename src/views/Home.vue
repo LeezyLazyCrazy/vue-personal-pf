@@ -5,7 +5,7 @@
 <!-- 1st section : intro page-->
     <v-container fluid align-center>
       <v-row class="mt-14">
-      <div class="first" id="intro">
+        <div class="first" id="intro">
         <v-col cols="6 intro-img" class="intro-img" >
           <v-img src="1.png" contain max-height="500"></v-img>
         </v-col>
@@ -23,15 +23,15 @@
             </div>
          
         </v-col>
-      </div>     
+        </div>     
 <!-- End of 1st section -->
 
 <!-- 2nd section : project -->
-      <div class="second " id="project">
+        <div class="second " id="project">
         <h1>PROJECTS</h1>
         <v-row class="pf justify-space-around mt-14 flex-{md}-{nowrap}">
           <v-col cols="3" class="pf-box" id="portfolio">           
-              <div class="pfIcon">
+            <div class="pfIcon">
                 <p class="icon">
                   <a href="https://leezy-portfolio.netlify.app" target="blank">
                   <img src="pf.png">
@@ -216,7 +216,7 @@
           </v-col>
         
         </v-row>       
-      </div>
+        </div>
 <!-- End of 2nd section -->
 
 <!-- 3rd section : about -->
@@ -263,7 +263,7 @@
                         class="ma-2"
                         color="secondary"
                       >
-                        vue.js
+                        Vue.js
                       </v-chip>
                   
                       <v-chip
@@ -312,7 +312,7 @@
               </v-btn>
               <h2> 👆🏻 </h2>
               <div id="text">
-                  <h3>"If you want to know about me then CLICK!!" </h3>
+                  <h3>"If we can build something amazing together? then CLICK!!" </h3>
                   <h3>"Grab a cup of Coffee? then CLICK!!"</h3>  
               </div>        
             </div> 
@@ -408,8 +408,8 @@
     .outline {
       font-size:20px;
       color: rgb(250, 250, 250);
-      text-shadow: 2px 2px 0 #6886C5, 2px -2px 0 #6886C5, -2px 2px 0 #6886C5, -2px -2px 0 #6886C5, 2px 0px 0 #6886C5, 0px 2px 0 #6886C5,
-      -2px 0px 0 #6886C5, 0px -2px 0 #6886C5;
+      text-shadow: 2px 2px 0 #209624, 2px -2px 0 #209624, -2px 2px 0 #209624, -2px -2px 0 #209624, 2px 0px 0 #209624, 0px 2px 0 #209624,
+      -2px 0px 0 #209624, 0px -2px 0 #209624;
     }
     .hashtag {
       width: fit-content;
@@ -420,7 +420,7 @@
     }
     .top {
     margin-top: 180px;
-    color:#3b41b7;
+    color:#7325ff;
     }
   }
  
@@ -439,7 +439,7 @@
       background-color: #e7e7e7;
       border: 6px dotted #ffbc6d;
       border-bottom: 14px solid #ff6325f5;
-      border-radius: 20px;
+      _border-radius: 20px;
     }
       .pfIcon {
       display: block;
@@ -493,7 +493,7 @@
       margin-top: 20px;
       border: 7px dotted #ece3ae;
       border-bottom: 10px solid #ece3ae;
-      border-radius: 60px;
+      _border-radius: 60px;
       background-color: #46724f47;
       color: #fafafa;
       padding: 0 10px 0 10px;

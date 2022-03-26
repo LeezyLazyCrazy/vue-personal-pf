@@ -285,7 +285,7 @@ body{ padding:0; margin:0; -ms-user-select: none; -moz-user-select: none; -khtml
       background-position: top !important;
     }
     .first h3{
-    font-size:15px;
+      font-size:15px;
     }
     .first .outline{
       display: flex;
@@ -301,7 +301,7 @@ body{ padding:0; margin:0; -ms-user-select: none; -moz-user-select: none; -khtml
       margin-left: -21px;
     }
 
-    .fourt{
+    .fourth{
       padding: 0;
     }
     .fourth{
